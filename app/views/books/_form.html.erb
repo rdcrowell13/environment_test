@@ -22,13 +22,13 @@
   </div>
 
   <div class="field">
-    <%= form.label :published %>
-    <%= form.date_select :published %>
+    <%= form.label :price %>
+    <%= form.number_field :price, step:0.01 %>
   </div>
 
   <div class="field">
-    <%= form.label :price %>
-    <%= form.text_field :price %>
+    <%= form.label :published_date %>
+    <%= form.date_field :published_date %>
   </div>
 
   <div class="actions">
